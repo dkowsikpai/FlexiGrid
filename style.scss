@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(./Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url(./Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(./Lato-Bold.ttf);
+}
+
+
+// Header Section
+
+.header-nav{
+    // background-color: lightblue;
+    display: flex;
+    width: 90%;
+    min-height: 10vh;
+    margin: auto;
+    align-items: center;
+    font-family: poppins-regular;
+}
+
+.nav-menu, .nav-profile-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-logo-div{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    // background-color: lightcoral;
+}
+.nav-logo {
+    width: 56px;
+    height: 56px;
+}
+.nav-title{
+    padding: 10px;
+    font-family: poppins-light;
+    text-transform: uppercase;
+    align-self: center;
+    letter-spacing: 3px;
+}
+
+.nav-menu{
+    // background-color: lightgreen;
+    flex: 2;
+    list-style: none;
+}
+
+.menu-item{
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.menu-item:hover {
+    border: 1px solid rgb(207, 207, 207);
+    background-color: rgba(204, 204, 204, 0.527);
+}
+
+
+.nav-profile-div{
+    // background-color: maroon;
+    flex: 1;
+    padding: 10px;
+}
+.nav-profile-icon {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+
+// Main Section
+
+.main-section{
+    // background-color: lightcoral;
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 800px){
+    .main-section {
+        display: none;
+    }
+}

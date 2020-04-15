@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: poppins-regular;
+  src: url(./Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins-light;
+  src: url(./Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url(./Lato-Bold.ttf);
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  min-height: 10vh;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: poppins-regular;
+}
+
+.nav-menu, .nav-profile-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav-logo-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.nav-logo {
+  width: 56px;
+  height: 56px;
+}
+
+.nav-title {
+  padding: 10px;
+  font-family: poppins-light;
+  text-transform: uppercase;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  letter-spacing: 3px;
+}
+
+.nav-menu {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  list-style: none;
+}
+
+.menu-item {
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.menu-item:hover {
+  border: 1px solid #cfcfcf;
+  background-color: rgba(204, 204, 204, 0.527);
+}
+
+.nav-profile-div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+}
+
+.nav-profile-icon {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.main-section {
+  min-height: 80vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .main-section {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

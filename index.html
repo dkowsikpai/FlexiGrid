@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
+
+
+    <link rel="stylesheet" type="text/css" href="flexigrid.css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="flexigrid.js"></script>
+
+
+<style>
+        
+    .flexigrid div.fbutton .add
+        {
+            background: url(add.png) no-repeat center left;
+        }	
+
+    .flexigrid div.fbutton .delete
+        {
+            background: url(close.png) no-repeat center left;
+        }
+        
+    .flexigrid div.fbutton .edit
+        {
+            background: url(edit.png) no-repeat center left;
+        }
+
+</style>
+
+    <title>List Page</title>
+</head>
+<body>
+    <header class="header-nav">
+        <div class="nav-logo-div">
+            <img class="nav-logo" src="logo.svg" />
+            <p class="nav-title">Solartech</p>
+        </div>
+        <ul class="nav-menu">
+            <li><a class="menu-item">Users</a></li>
+            <li><a class="menu-item">Products</a></li>
+            <li><a class="menu-item">Employees</a></li>
+        </ul>
+        <div class="nav-profile-div">
+            <img class="nav-profile-icon" src="./profile_icon.png"/>
+        </div>
+    </header>
+    <main class="main-section">
+        <section class="grid-placer">
+            <table id="flex1" style="display:none"></table>
+        </section>
+    </main>
+
+
+
+<script type="text/javascript">
+    			$("#flex1").flexigrid
+			(
+			{
+			url: 'http://localhost:3000/api/ourproducts_web',
+			dataType: 'json',
+			colModel : [
+				{display: 'ID', name : 'id', width : 80, sortable : true, align: 'center', hide: true},
+				{display: 'Title', name : 'title', width : 290, sortable : true, align: 'left'},
+				{display: 'Description', name : 'description', width : 500, sortable : true, align: 'left'},
+				{display: 'Image Name', name : 'image', width : 200, sortable : true, align: 'left', hide: true},
+				],
+			buttons : [
+				{name: 'Add', bclass: 'add', onpress : test},
+                {name: 'Edit', bclass: 'edit', onpress : test},
+                {name: 'Delete', bclass: 'delete', onpress : test},
+				{separator: true}
+				],
+			searchitems : [
+                {display: 'Title', name : 'title', isdefault: true},
+                {display: 'Description', name : 'description'}
+				],
+			sortname: "title",
+			sortorder: "asc",
+			usepager: true,
+			title: 'Our Products',
+			useRp: true,
+			rp: 15,
+			showTableToggleBtn: false,
+			width: 800,
+            height: 400,
+            singleSelect: true
+            
+			}
+			);
+			
+			function test(com,grid)
+			{
+				if (com=='Delete')
+					{
+						confirm('Delete ' + $('.trSelected',grid).length + ' items?')
+					}
+				else if (com=='Add')
+					{
+						alert('Add New Item');
+                    }
+                else if (com=='Edit')
+					{
+						alert('Edit Item');
+					}			
+			}
+</script>
+
+</body>
+</html>

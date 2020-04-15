@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="617"
+   height="614"
+   viewBox="0 0 617 614"
+   fill="none"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     id="namedview29"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.38436482"
+     inkscape:cx="308.5"
+     inkscape:cy="307"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27">
+    <sodipodi:guide
+       position="-2.6016949,411.0678"
+       orientation="1,0"
+       id="guide33"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="320.00847,614"
+       orientation="0,1"
+       id="guide35"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="267.97458,267.97458"
+       orientation="-0.70710678,0.70710678"
+       id="guide37"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="478.71186,137.88983"
+       orientation="0.70710678,0.70710678"
+       id="guide39"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     id="S"
+     transform="matrix(1.5484784,0,0,1.4615911,-107.52575,-117.35514)">
+    <g
+       id="Orange">
+      <mask
+         id="mask0"
+         mask-type="alpha"
+         maskUnits="userSpaceOnUse"
+         x="115"
+         y="113"
+         width="503"
+         height="502">
+        <path
+           id="Vector 2"
+           d="M 286.251,281.614 C 507.181,379.625 117,490.42 117,490.42 L 617,614 610.54,114 c 0,0 -545.2196,69.602 -324.289,167.614 z"
+           inkscape:connector-curvature="0"
+           style="fill:#c4c4c4;stroke:#000000" />
+      </mask>
+      <g
+         mask="url(#mask0)"
+         id="g5">
+        <ellipse
+           id="Ellipse 2"
+           cx="296.58701"
+           cy="296.52802"
+           rx="139.535"
+           ry="179.688"
+           style="fill:url(#paint0_linear)" />
+      </g>
+    </g>
+    <g
+       id="Green">
+      <mask
+         id="mask1"
+         mask-type="alpha"
+         maskUnits="userSpaceOnUse"
+         x="-57"
+         y="-34"
+         width="513"
+         height="511">
+        <path
+           id="Vector 2_2"
+           d="M 280.803,302.441 C 44.6057,208.882 446.187,90.5587 446.187,90.5587 L -56,-23.8098 -40.351,475.987 c 0,0 557.351,-79.987 321.154,-173.546 z"
+           inkscape:connector-curvature="0"
+           style="fill:#c4c4c4;stroke:#000000" />
+      </mask>
+      <g
+         mask="url(#mask1)"
+         id="g11">
+        <ellipse
+           id="Ellipse 2_2"
+           cx="226.58501"
+           cy="288.53"
+           rx="139.535"
+           ry="179.688"
+           style="fill:url(#paint1_linear)" />
+      </g>
+    </g>
+  </g>
+  <defs
+     id="defs25">
+    <linearGradient
+       id="paint0_linear"
+       x1="473"
+       y1="224"
+       x2="157"
+       y2="652"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.147541"
+         stop-color="#F88F15"
+         id="stop15" />
+      <stop
+         offset="1"
+         stop-color="#E6800A"
+         id="stop17" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear"
+       x1="197"
+       y1="436"
+       x2="491"
+       y2="-98"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#13AB06"
+         id="stop20" />
+      <stop
+         offset="1"
+         stop-color="#2F9E25"
+         stop-opacity="0"
+         id="stop22" />
+    </linearGradient>
+  </defs>
+</svg>
